@@ -15,12 +15,14 @@ Vue.use(BootstrapVue);
 
 import Menu from './components/Menu.vue'
 import Users from './components/Users.vue'
+import AddUsers from './components/AddUsers.vue'
 
 
 const routes = [
 	//route for the home route of the webpage
   { path: '/', component: Menu } ,
-  { path: '/users', component: Users } 
+  { path: '/users', component: Users },
+  { path: '/addusers', component: AddUsers } 
 ]
 
 const router = new VueRouter({

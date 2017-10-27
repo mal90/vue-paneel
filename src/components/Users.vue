@@ -2,7 +2,7 @@
     <div class="container topmargin" id="users">
         <b-list-group>
             <b-list-group-item active>
-                <b-nav-item  v-bind:to="'/'" class="backbtnfont">&lsaquo;Menu</b-nav-item>
+                <b-button :size="'sm'" :variant="'link'"    v-bind:to="'/'" class="backbtn">&lsaquo;Menu</b-button>
                 Select User
             </b-list-group-item>
             <b-list-group-item>
@@ -14,7 +14,7 @@
                 </b-dropdown>
                 <br/>
                 <br/>
-                <small> Cannot find user ? </small><b-button :size="'sm'" :variant="'primary'">Add</b-button>
+                <small> Cannot find user ? </small><b-button :size="'sm'" :variant="'primary'" v-bind:to="'/addusers'">Add</b-button>
             </b-list-group-item>
         </b-list-group>
     </div>
@@ -40,14 +40,11 @@ export default {
     padding: 10px;
 }
 
-.backbtnfont{
+.backbtn{
     position: absolute;
     float:left;
-    margin-left: -140px;
-    margin-top: -8px;
-}
-
-.backbtnfont a{
-    color:#721c24;
+     margin-left: -133px;
+    margin-top: -5px;
+    color: white;
 }
 </style>
