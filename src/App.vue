@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>Vue Panel</h1>
     <router-view></router-view>
   </div>
 </template>
@@ -24,9 +23,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
 }
 
-h1, h2 {
+h1, h2,h3,h6 {
   font-weight: normal;
 }
 
