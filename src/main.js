@@ -1,11 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-//import resources from 'vue-resource'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'bootstrap/dist/css/bootstrap.css'
+
+
 
 
 Vue.use(VueRouter)
-//Vue.use(resources)
+Vue.use(BootstrapVue);
 
 
 
