@@ -13,14 +13,14 @@ Vue.use(BootstrapVue);
 
 
 
-import Dashboard from './components/Dashboard.vue'
-import AddUsers from './components/AddUsers.vue'
+import Menu from './components/Menu.vue'
+import Users from './components/Users.vue'
 
 
 const routes = [
 	//route for the home route of the webpage
-  { path: '/', component: Dashboard } ,
-  { path: '/addusers', component: AddUsers } 
+  { path: '/', component: Menu } ,
+  { path: '/users', component: Users } 
 ]
 
 const router = new VueRouter({

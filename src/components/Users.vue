@@ -1,19 +1,20 @@
 <template>
-    <div class="container topmargin" id="addusers">
+    <div class="container topmargin" id="users">
         <b-list-group>
             <b-list-group-item active>
                 <b-nav-item  v-bind:to="'/'" class="backbtnfont">&lsaquo;Menu</b-nav-item>
-                Add User
+                Select User
             </b-list-group-item>
             <b-list-group-item>
                <b-dropdown id="ddown1" text="Select User" variant="primary" class="m-md-2">
-                    <b-dropdown-item id="header1">Manager</b-dropdown-item>
-                    <b-dropdown-item  id="header2">Supervisor</b-dropdown-item>
-                    <b-dropdown-item  id="header3">Co-ordinator</b-dropdown-item>
-                    <b-dropdown-item  id="header4">Receptionist</b-dropdown-item>
+                    <b-dropdown-item id="item1">Manager</b-dropdown-item>
+                    <b-dropdown-item  id="item2">Supervisor</b-dropdown-item>
+                    <b-dropdown-item  id="item3">Co-ordinator</b-dropdown-item>
+                    <b-dropdown-item  id="item4">Receptionist</b-dropdown-item>
                 </b-dropdown>
                 <br/>
-                <small> Cannot find user ? </small><b-badge v-bind:to="'/'" variant="success">Add</b-badge>
+                <br/>
+                <small> Cannot find user ? </small><b-button :size="'sm'" :variant="'primary'">Add</b-button>
             </b-list-group-item>
         </b-list-group>
     </div>
@@ -21,7 +22,7 @@
 
 <script>
 export default {
-  name: 'AddUsers',
+  name: 'Users',
   data () {
     return {
      
@@ -42,7 +43,7 @@ export default {
 .backbtnfont{
     position: absolute;
     float:left;
-    margin-left: -147px;
+    margin-left: -140px;
     margin-top: -8px;
 }
 

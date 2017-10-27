@@ -1,11 +1,11 @@
 <template>
-    <div class="container topmargin" id="dashboard">
+    <div class="container topmargin" id="menu">
         <b-list-group>
             <b-list-group-item active>
                 Menu
             </b-list-group-item>
-            <b-list-group-item v-bind:to="'/addusers'">
-                Go to Add User
+            <b-list-group-item v-bind:to="'/users'">
+                User
             </b-list-group-item>
             <b-list-group-item>
                 Add time range
@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'Dashboard'
+  name: 'Menu'
 }
 </script>
 <style>
