@@ -2,7 +2,7 @@
     <div class="container topmargin" id="users">
         <b-list-group>
             <b-list-group-item active>
-                <b-button :size="'sm'" :variant="'link'"    v-bind:to="'/'" class="backbtn">&lsaquo;Menu</b-button>
+                <b-button :size="'sm'" :variant="'link'"    v-bind:to="'/'" class="backbtnusers">&lsaquo;Menu</b-button>
                 Select User
             </b-list-group-item>
             <b-list-group-item>
@@ -40,7 +40,7 @@ export default {
     padding: 10px;
 }
 
-.backbtn{
+.backbtnusers{
     position: absolute;
     float:left;
      margin-left: -133px;

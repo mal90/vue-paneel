@@ -2,11 +2,19 @@
     <div class="container topmargin" id="users">
         <b-list-group>
             <b-list-group-item active>
-                <b-button :size="'sm'" :variant="'link'"  v-bind:to="'/users'" class="backbtn">&lsaquo;Select User</b-button>
+                <b-button :size="'sm'" :variant="'link'"  v-bind:to="'/users'" class="backbtnaddusers">&lsaquo;Select User</b-button>
                 Add User                
             </b-list-group-item>
             <b-list-group-item>
-                Add time range
+                <b-form @submit="onSubmit">
+                <b-form-group id="exampleInputGroup2"
+                                label="Your Name:" label-for="exampleInput2">
+                    <b-form-input id="exampleInput2"
+                                type="text" v-model="form.name" required
+                                placeholder="Enter name">
+                    </b-form-input>
+                    </b-form-group>
+                </b-form>
             </b-list-group-item>
         </b-list-group>
     </div>
@@ -17,7 +25,13 @@ export default {
   name: 'AddUsers',
   data () {
     return {
-     
+     form: {
+        email: '',
+        name: '',
+        food: null,
+        checked: false,
+        secret: 'S3CR3T'
+      }
     }
   }, 
   methods: {
@@ -32,10 +46,10 @@ export default {
     padding: 10px;
 }
 
-.backbtn{
+.backbtnaddusers{
     position: absolute;
     float:left;
-    margin-left: -138px;
+    margin-left: -141px;
     margin-top: -5px;
     color: white;
 }
