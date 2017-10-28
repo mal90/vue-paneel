@@ -7,13 +7,13 @@
             <b-list-group-item v-bind:to="'/users'">
                 User
             </b-list-group-item>
-            <b-list-group-item>
+            <b-list-group-item href="#">
                 Add time range
             </b-list-group-item>
-            <b-list-group-item>
+            <b-list-group-item href="#">
                 Select catagory
             </b-list-group-item>
-            <b-list-group-item>
+            <b-list-group-item href="#">
                 Select location
             </b-list-group-item>
         </b-list-group>

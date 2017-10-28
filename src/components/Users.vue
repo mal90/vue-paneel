@@ -7,7 +7,7 @@
             </b-list-group-item>
             <b-list-group-item>
                <b-dropdown id="ddown1" text="Select User" variant="primary" class="m-md-2">
-                    <b-dropdown-item id="item1">Manager</b-dropdown-item>
+                    <b-dropdown-item id="item1">Shift-Manager</b-dropdown-item>
                     <b-dropdown-item  id="item2">Supervisor</b-dropdown-item>
                     <b-dropdown-item  id="item3">Co-ordinator</b-dropdown-item>
                     <b-dropdown-item  id="item4">Receptionist</b-dropdown-item>
