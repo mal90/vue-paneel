@@ -15,7 +15,7 @@
                         <b-col sm="3"><small><label size="sm" for="input-small">Info : </label></small></b-col>
                         <b-col sm="9">
                             <b-form-textarea id="textarea1"
-                            placeholder="Enter a short description on the role"
+                            placeholder="Enter a short description of the role"
                             :rows="3"
                             :max-rows="6">
                             </b-form-textarea>

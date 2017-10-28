@@ -4,12 +4,17 @@ import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon.vue'
+
 
 
 
 
 Vue.use(VueRouter)
-Vue.use(BootstrapVue);
+Vue.use(BootstrapVue)
+Vue.component('icon', Icon)
+
 
 
 
