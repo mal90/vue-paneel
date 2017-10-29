@@ -15,3 +15,11 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+## Screenshots
+
+![Menu](screenshots/Menu.PNG?raw=true "Menu")
+<br/>
+![Users](screenshots/Users.PNG?raw=true "Select Users")
+<br/>
+![Add Users](screenshots/Add-users.PNG?raw=true "Add Users")
