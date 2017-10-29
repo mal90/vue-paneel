@@ -1,6 +1,7 @@
 # vue-paneel
 
-> Simple dynamic navigation panel using vue2,bootstrap-vue,vue-router
+> Simple dynamic navigation panel using vue2,bootstrap-vue,vue-router.
+>http://vue-paneel.herokuapp.com
 
 
 ## Build Setup
