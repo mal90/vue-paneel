@@ -1,6 +1,7 @@
 # vue-paneel
 
-> Simple dynamic navigation panel using Vue
+> Simple dynamic navigation panel using vue2,bootstrap-vue,vue-router
+
 
 ## Build Setup
 
@@ -14,5 +15,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

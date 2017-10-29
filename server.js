@@ -1,4 +1,8 @@
-// server.js
+/**
+ * Simple express server with minimal code
+ * to run the application using static files in /dist dir.
+ * This was created to run the application in heroku server.
+ */
 var express = require('express');
 var path = require('path');
 var serveStatic = require('serve-static');
