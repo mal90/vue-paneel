@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "start": "node server.js" //To run the application using express static loader at localhost:5000
+    "start": "node server.js" 
   },
   "dependencies": {
     "bootstrap-vue": "^1.0.0-beta.9",
